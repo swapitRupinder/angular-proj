@@ -1,0 +1,85 @@
+<div class="search-signup-section">
+		<div class="search-sec">
+			<div class="container">
+				<div class="search">
+					<form>
+						<input class="search_bar" type="search" name="search">
+						<input class="search_btn" type="submit" value="Search">
+					</form>
+				</div><!--search-->
+
+				<div class="section-sign">
+					<div class="sign-up-title">
+						<h1>sign up</h1>
+					</div><!--sign-up-title-->
+
+						
+						<div class="signup-form-sec">
+								<div class="col-md-6">
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    
+    <div class="input-group">
+											<input class="form-control su-form" type="text" formControlName="username"  [ngClass]="{ 'is-invalid': submitted && f.username.errors }" text="text" placeholder="choose username">
+										 <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+            <div *ngIf="f.username.errors.required">Username is required</div>
+        </div>
+										</div>
+    <div class="input-group">
+	
+	<input type="password" formControlName="password"  [ngClass]="{ 'is-invalid': submitted && f.password.errors }" class="form-control su-form" text="password" placeholder="choose password">
+ <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+            <div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>
+        </div>
+	<div class="icon">
+												<i class="fa fa-question-circle" aria-hidden="true"></i>
+												<div class="icon-inner">
+													<p>Lorem Ipsum is simply dummy<p>
+												</div><!--icon-inner-->
+											</div><!--icon-->
+	</div>
+		<div class="condition">
+											<h2>Read Terms & Condition <i class="fa fa-angle-down"></i></h2>
+										</div><!--condition-->
+
+										<div class="condition-inner">
+												<p>Conditions of use</p>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+											</div><!--condition-inner-->
+		<div class="form-check input-group checkbox">
+					<label>
+						<input type="checkbox" name="check" > <p class="label-text">By checking this box, I have read, agree to the terms & condition.</p>
+					</label>
+				</div>
+		<div class="input-group submit">
+											<input [disabled]="loading" type="submit" name="submit" value="create profile">
+										 
+        <a [routerLink]="['/login']" class="btn btn-link">Cancel</a>
+										</div>
+	
+	
+    <!-- <div class="form-group">
+        <button [disabled]="loading" class="btn btn-primary">Register</button>
+        <img *ngIf="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+        
+        <a [routerLink]="['/login']" class="btn btn-link">Cancel</a>
+    </div> -->
+</form>
+</div><!--signup-form-sec-->
+				</div>
+
+
+
+				</div><!--section-sign-->
+			</div><!--container-->
+		</div><!--search-sec-->
+		
+		
+		
+		
+		
+		
+		
+	</div><!--search-signup-section-->

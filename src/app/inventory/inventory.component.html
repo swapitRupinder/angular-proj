@@ -1,0 +1,1017 @@
+ <div class="bg-color inventory">
+         <div class="container">
+            <div class="member-search">
+               <div class="row">
+                  <div class="col-sm-8 offset-sm-4 sign-right">
+                     <div class="search">
+                        <form>
+                           <input type="text" placeholder=""/>
+                           <input type="submit" value="search"/>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <ul class="breadcrumb">
+                  <li><a href="#">create profile</a></li>
+                  <li><a href="#"><b>inventory</b></a></li>
+                  <li><a href="#">create labels</a></li>
+               </ul>
+            </div>
+            <div class="row inventory-sec">
+               <div class="col-sm-8">
+                  <h3> inventory</h3>
+                  <p class="inventory-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas neque at libero condimentum aliquet. Sed velit metus, gravida et mauris vel, porta sollicitudin augue. Nulla facilisi. </p>
+               </div>
+               <div class="col-sm-4">
+                  <div class="inven-button">
+                     <a href="#">2. inventory </a>
+                     <a href="#">3. create labels </a>
+                  </div>
+               </div>
+               <div class="row inventory-accordian">
+                  <div class="col-sm-12">
+                     <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">               <i class="fa" aria-hidden="true"></i>
+            MORE INFO
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          <div class="inventory-image-accordian">
+                                    <img src="assets/images/sample-user.png">
+                                    <div class="dropdown">
+                                       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                       SAMPLE USER NAME
+                                       </button>
+                                       <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Link 1</a>
+                                          <a class="dropdown-item" href="#">Link 2</a>
+                                          <a class="dropdown-item" href="#">Link 3</a>
+                                       </div>
+                                    </div>
+                                    <a href="#" class="edit-profile">edit profile</a>
+                                    <div class="list-create clearfix">
+                                       <ul>
+                                          <li> RECORD YOUR ARTWORK </li>
+                                          <li> CREATE A LIST <!--button type="search"> search </button--> 
+											<div class="dropdown">
+											   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+											   search
+											   </button>
+											   <div class="dropdown-menu list-search">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="sort-by"><span>SORT BY </span>
+															<div id="btnnContainer">
+															  <button class="btn" id="sort-list" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+															  <button class="btn active" id="sort-grid" onclick="gridView()"><i class="fa fa-th-large"></i> </button>							
+														   </div>
+														   </div>
+														</div>
+														<div class="col-sm-6">
+														  <a class="dropdown-item" href="#">T</a>
+														  <a class="dropdown-item" href="#">Year</a>
+														  <a class="dropdown-item" href="#">Date Range </a>
+														  <a class="dropdown-item" href="#">Medium</a>
+														  <a class="dropdown-item" href="#">Alphabetically</a>
+														  <a class="dropdown-item" href="#">Sold Works</a>
+														  <a class="dropdown-item" href="#">Available Works</a>
+														  <a class="dropdown-item" href="#">Category</a>
+														  <a class="dropdown-item" href="#">Series</a>
+														  <a class="dropdown-item" href="#">Collection</a>
+														  <a class="dropdown-item" href="#">Exhibition</a>		         
+														</div>
+													
+													</div>
+												  
+											   </div>
+											</div>	
+										  </li>
+                                          <li> CREATE LABEL(S) <!--button type="search"> search </button--> 
+											<div class="dropdown">
+											   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+											   search
+											   </button>
+											   <div class="dropdown-menu list-search">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="sort-by"><span>SORT BY </span>
+															<div id="btnnContainer">
+															  <button class="btn" id="list" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+															  <button class="btn active" id="grid" onclick="gridView()"><i class="fa fa-th-large"></i> </button>							
+														   </div>
+														   </div>
+														</div>
+														<div class="col-sm-6">
+														  <a class="dropdown-item" href="#">Title</a>
+														  <a class="dropdown-item" href="#">Y</a>
+														  <a class="dropdown-item" href="#">Date Range </a>
+														  <a class="dropdown-item" href="#">Medium</a>
+														  <a class="dropdown-item" href="#">Alphabetically</a>
+														  <a class="dropdown-item" href="#">Sold Works</a>
+														  <a class="dropdown-item" href="#">Available Works</a>
+														  <a class="dropdown-item" href="#">Category</a>
+														  <a class="dropdown-item" href="#">Series</a>
+														  <a class="dropdown-item" href="#">Collection</a>
+														  <a class="dropdown-item" href="#">Exhibition</a>		         
+														</div>
+													
+													</div>
+												  
+											   </div>
+											</div>	
+										  </li>
+                                          <li> CREATE A PRICELIST <!--button type="search"> search </button--> 
+											<div class="dropdown">
+											   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+											   search
+											   </button>
+											   <div class="dropdown-menu list-search">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="sort-by"><span>SORT BY </span>
+															<div id="btnnContainer">
+															  <button class="btn" id="list" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+															  <button class="btn active" id="grid" onclick="gridView()"><i class="fa fa-th-large"></i> </button>							
+														   </div>
+														   </div>
+														</div>
+														<div class="col-sm-6">
+														  <a class="dropdown-item" href="#">Title</a>
+														  <a class="dropdown-item" href="#">Year</a>
+														  <a class="dropdown-item" href="#">D Range </a>
+														  <a class="dropdown-item" href="#">Medium</a>
+														  <a class="dropdown-item" href="#">Alphabetically</a>
+														  <a class="dropdown-item" href="#">Sold Works</a>
+														  <a class="dropdown-item" href="#">Available Works</a>
+														  <a class="dropdown-item" href="#">Category</a>
+														  <a class="dropdown-item" href="#">Series</a>
+														  <a class="dropdown-item" href="#">Collection</a>
+														  <a class="dropdown-item" href="#">Exhibition</a>		         
+														</div>
+													
+													</div>
+												  
+											   </div>
+											</div>	
+										  </li>
+                                          <li> GENERATE PROVENANCE <!--button type="search"> search </button-->
+											<div class="dropdown">
+											   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+											   search
+											   </button>
+											   <div class="dropdown-menu list-search">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="sort-by"><span>SORT BY </span>
+															<div id="btnnContainer">
+															  <button class="btn" id="list" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+															  <button class="btn active" id="grid" onclick="gridView()"><i class="fa fa-th-large"></i> </button>							
+														   </div>
+														   </div>
+														</div>
+														<div class="col-sm-6">
+														  <a class="dropdown-item" href="#">Title</a>
+														  <a class="dropdown-item" href="#">Year</a>
+														  <a class="dropdown-item" href="#">Date Range </a>
+														  <a class="dropdown-item" href="#">M</a>
+														  <a class="dropdown-item" href="#">Alphabetically</a>
+														  <a class="dropdown-item" href="#">Sold Works</a>
+														  <a class="dropdown-item" href="#">Available Works</a>
+														  <a class="dropdown-item" href="#">Category</a>
+														  <a class="dropdown-item" href="#">Series</a>
+														  <a class="dropdown-item" href="#">Collection</a>
+														  <a class="dropdown-item" href="#">Exhibition</a>		         
+														</div>
+													
+													</div>
+												  
+											   </div>
+											</div>	
+										  </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+        </div>
+      </div>
+    </div>   
+  </div><!--accordion close-->
+                  </div><!--col-sm-12-->				  
+               </div>
+			   
+               <div class="row select-artwork">
+                  <div class="col-sm-12">
+                     <h3> select artwork/s</h3>
+                     <p> Select or drag and drop your image to create a label/s. A summary is being created for you below.</p>
+                     <div class="drop-files">
+                        <input type="file" name="image_path" id="img-path">
+                     </div>
+                  </div>
+               </div>
+               <!--- year start -->
+			   
+			   <div id="demo-accordion-collapse" class="year-box" role="tablist">
+            <div class="card-1">
+               <div class="card-header" role="tab" id="accord1">
+                  <div class="head-button">
+                     <a data-toggle="collapse" class="main-year main-year1" href="#collapse-pane-1" role="button" aria-expanded="true" aria-controls="collapse-pane-1">
+                     2017	
+                     </a>
+                  </div>
+               </div>
+               <div id="collapse-pane-1" class="collapse show year-box" role="tabpanel" aria-labelledby="accord1" data-parent="#demo-accordion-collapse">
+                  <div class="card-body">
+                     <div class="row">
+                        <div class="col-sm-6 ">
+                           <button class="main-year"> 2017 </button>
+                           <span class="view "> view </span>
+                           <div id="btnnContainer">
+                              <button class="btn" id="list" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+                              <button class="btn active" id="grid" onclick="gridView()"><i class="fa fa-th-large"></i> </button>
+                              <button class="btn" id="desktop" onclick="desktopView()"> <i class="fa fa-desktop" aria-hidden="true"></i> </button> 									
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="right-sort">
+                              <button class="sort-btn">sort by </button>
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text">
+                                    select all
+                                 </p>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row grid-view-invntry">
+                        <div class="gal1">
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <!--box close -->								
+                        </div>
+                     </div>
+                     <!-- grid view close-->
+                     <div class="panel-group list-view-invntry" id="accordion2" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne2">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 01</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne3">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 02</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne4">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 03</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- list-view-close-->
+                     <div class=" desktop-view-invntry gal1">
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!--desktop-view close-->
+                  </div>
+               </div>
+            </div><!--card-1 close-->
+			
+			
+            <div class="card-1">
+               <div class="card-header" role="tab" id="accord2">
+                  <div class="head-button">
+                     <a class="collapsed main-year main-year1" data-toggle="collapse" href="#collapse-pane-2" role="button" aria-expanded="false" aria-controls="collapse-pane-2">
+                     2016
+                     </a>
+                  </div>
+               </div>
+               <div id="collapse-pane-2" class="collapse" role="tabpanel" aria-labelledby="accord2" data-parent="#demo-accordion-collapse">
+                  <div class="card-body">
+                     <div class="row">
+                        <div class="col-sm-6 ">
+                           <button class="main-year"> 2016 </button>
+                           <span class="view "> view </span>
+                           <div id="btnnContainer">
+                              <button class="btn" id="list" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+                              <button class="btn active" id="grid" onclick="gridView()"><i class="fa fa-th-large"></i> </button>
+                              <button class="btn" id="desktop" onclick="desktopView()"> <i class="fa fa-desktop" aria-hidden="true"></i> </button> 									
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="right-sort">
+                              <button class="sort-btn">sort by </button>
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text">
+                                    select all
+                                 </p>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row grid-view-invntry">
+                        <div class="gal1">
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <!--box close -->								
+                        </div>
+                     </div>
+                     <!-- grid view close-->
+                     <div class="panel-group list-view-invntry" id="accordion2" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne2">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 01</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne3">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 02</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne4">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 03</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- list-view-close-->
+                     <div class=" desktop-view-invntry gal1">
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!--desktop-view close-->
+                  </div>
+               </div>
+            </div><!--card-1 close-->
+			
+			<div class="card-1">
+               <div class="card-header" role="tab" id="accord3">
+                  <div class="head-button">
+                     <a class="collapsed main-year main-year1" data-toggle="collapse" href="#collapse-pane-3" role="button" aria-expanded="false" aria-controls="collapse-pane-3">
+                     2014
+                     </a>
+                  </div>
+               </div>
+               <div id="collapse-pane-3" class="collapse" role="tabpanel" aria-labelledby="accord3" data-parent="#demo-accordion-collapse">
+                  <div class="card-body">
+                     <div class="row">
+                        <div class="col-sm-6 ">
+                           <button class="main-year"> 2014 </button>
+                           <span class="view "> view </span>
+                           <div id="btnnContainer">
+                              <button class="btn" id="list" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+                              <button class="btn active" id="grid" onclick="gridView()"><i class="fa fa-th-large"></i> </button>
+                              <button class="btn" id="desktop" onclick="desktopView()"> <i class="fa fa-desktop" aria-hidden="true"></i> </button> 									
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="right-sort">
+                              <button class="sort-btn">sort by </button>
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text">
+                                    select all
+                                 </p>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row grid-view-invntry">
+                        <div class="gal1">
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="box">
+                              <div class="figure">
+                                 <img src="assets/images/img4.png" alt="image">								
+                                 <div class="hover-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                                 </div>
+                              </div>
+                              <div class="figure-caption">
+                                 <a href="#" class="sign">  </a>
+                                 <label>
+                                    <input type="checkbox" name="check">
+                                    <p class="label-text"></p>
+                                 </label>
+                              </div>
+                           </div>
+                           <!--box close -->								
+                        </div>
+                     </div>
+                     <!-- grid view close-->
+                     <div class="panel-group list-view-invntry" id="accordion2" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne2">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 01</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne3">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 02</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default ">
+                           <div class="panel-heading" role="tab" id="headingOne4">
+                              <div class="figure-caption">
+                                 <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
+                                    </a>
+                                    <label>
+                                       <input type="checkbox" name="check">
+                                       <p class="label-text">Artwork Title 03</p>
+                                    </label>
+                                 </h4>
+                              </div>
+                           </div>
+                           <div id="collapseOne4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" style="">
+                              <div class="panel-body">
+                                 <p>Il id entem quam, ut dit ad molupti oreres eatquam, sus et ipsa dendic te doluptae experepelia de expel magnis es dero es inimenias et laut ius, quo berferum sequates ipiciae que cumque nes nonsed e</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- list-view-close-->
+                     <div class=" desktop-view-invntry gal1">
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                           <div class="desktop-content">
+                              <p> Mus unto to testo custium, omnitatem eiciis exerest rerspero est, ut quamus</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!--desktop-view close-->
+                  </div>
+               </div>
+            </div><!--card-1 close-->
+			
+			
+			
+         </div>
+			   
+			   
+               								
+        <!--summary start-->                
+               <div class="year-box year-box-last">
+                  <div class="row">
+                     <div class="col-sm-6 ">
+                        <h3> summary</h3>
+                     </div>
+                     <div class="col-sm-6">
+                        <div class="right-sort">
+                           <button class="sort-btn">sort by </button>
+                           <span class="view "> view </span>
+                           <div id="btnnContainer" >
+                              <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+                              <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> </button>
+							  <button class="btn" onclick="desktopView()"> <i class="fa fa-desktop" aria-hidden="true"></i> </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="gal1">
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <a href="#" class="sign">  </a>
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <a href="#" class="sign">  </a>
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <a href="#" class="sign">  </a>
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="box">
+                           <div class="figure">
+                              <img src="assets/images/img4.png" alt="image">								
+                              <div class="hover-text">
+                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                              </div>
+                           </div>
+                           <div class="figure-caption">
+                              <a href="#" class="sign">  </a>
+                              <label>
+                                 <input type="checkbox" name="check">
+                                 <p class="label-text"></p>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--year close-->
+               <div class="next-button">
+                  <a href="" class="nxt-btn"> next</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--conatiner close-->	
+      
