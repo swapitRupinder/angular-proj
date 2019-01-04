@@ -1,0 +1,324 @@
+
+<div class="sign-sec">
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-sm-4 sign-left">
+				  <div class="sign-button">
+					<!-- <a routerLink="/home/signup">sign up</a><a href="#">trial</a>
+				   --><a [routerLink]="['/login']">sign up</a>
+				   <a href="#">trial</a>
+				   </div>
+				   
+			  </div>
+			<div class="col-sm-8 sign-right">
+			  <div class="search">
+				  <form>
+					  <input type="text" placeholder=""/>
+					  <input type="submit" value="search"/>
+				  </form>
+			  </div>
+			  </div>
+		  </div>
+	  </div>
+  </div>
+  
+  
+  
+  
+  
+ 
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <img src="assets/images/banner1.jpg" alt="">	
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/banner1.jpg" alt="">	
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/banner1.jpg" alt="">	
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!----Gallery slider start -------------->
+	<!-- 	<div id="demos" class="demo">
+		<div class="container">
+		  <div class="row">
+			<div class="large-12 columns">
+			 
+			   <owl-carousel
+                [options]="myCarouselOptions"
+                >
+				<div class="item"  *ngFor="let content of myCarouselImages;let i=index">
+				  
+            <div class="art{{ i+1 }}" [ngStyle]="{'background-image': 'url(' + content.img + ')'}"></div>
+				
+				<p>{{content.text }}</p>
+				</div>
+				
+</owl-carousel>				
+			
+			</div>
+		  </div>
+		  </div>
+		</div> -->
+		
+		<div id="demos" class="demo">
+		<div class="container">
+		  <div class="row">
+			<div class="large-12 columns">
+			
+			 <owl-carousel
+                [options]="myCarouselOptions"
+                >
+			  
+				<div class="item"  *ngFor="let content of myCarouselImages;let i=index">
+				  <div class="art">  <img src="{{content.img}}" alt="sample"></div>
+				  <p> {{content.text }}</p>
+				</div>
+				</owl-carousel>	
+				
+				
+				
+				          
+			  </div>
+			</div>
+		  </div>
+		  </div>
+	
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<div class="container">
+		<div class="for_art space-50">
+			<h2>ID for <b>art</b> </h2>
+			<p class="p-content">Ferchitaeped et as excerum is rem as repuda doluptatur?Lam fugias minverum nim re quis delis asped moloria temqui ut quam, nit, qui reicima ximporum lab il et odistrum qui quam, culparum aceatem et aliania cone soluptae laborerectur sunt. Sanist volo omnihitatiae aspis et et id enimusa quam sita demp. </p>
+		</div>
+		
+		<div class="benefit space-50">
+			<h2>Benefits </h2>
+			<div class="benefit-list clearfix">				  
+				  <div class="col-sm-6 left-ardn">
+                        <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                            
+							<div class="panel panel-default ">
+                                <div class="panel-heading" role="tab" id="headingOne2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default ">
+                                <div class="panel-heading" role="tab" id="headingTwo2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">
+                                            Lorem consectetuer adipiscing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default ">
+                                <div class="panel-heading" role="tab" id="headingThree2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu.</p>
+                                    </div>
+                                </div>
+                            </div>
+			</div>
+			</div>
+<div class="col-sm-6 right-ardn">
+       <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default ">
+                                <div class="panel-heading" role="tab" id="headingFour2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour2" aria-expanded="false" aria-controls="collapseFour2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour2">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu.  </p>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFive2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive2" aria-expanded="false" aria-controls="collapseFour2">
+                                            Lorem ipsum dolor sit amet
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive2">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu.  </p>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="panel panel-default ">
+                                <div class="panel-heading" role="tab" id="headingSix2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix2" aria-expanded="false" aria-controls="collapseSix2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSix2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix2">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+			</div>
+		</div><!----benefit close---->
+		
+		<div class="meet space-50">
+			<h2> MEET <b>dartakey </b> </h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="meet-card"> 
+						<img src="assets/images/card.png">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="meet-content">
+						<p> Ferchitaeped et as excerum is rem as repuda doluptatur? Lam fugias minverum nim re quis delis asped moloria temqui ut quam, nit, qui reicima ximporum lab il et odistrum ximporum lab il et odistrum</p>
+						<button type="button" class="btn-email btn">email me a broucher</button>
+					</div>
+				</div>
+			</div>
+		</div><!--meet close-->
+		<div class="center-half-line"> </div>
+		<div class="recording  space-50">
+			<h2 class="head"> Recording your <b> artwork</b></h2>
+			<p class="p-content">Ferchitaeped et as excerum is rem as repuda doluptatur?Lam fugias minverum nim re quis delis asped moloria temqui ut quam, nit, qui reicima ximporum lab il et odistrum qui quam, culparum aceatem et aliania cone soluptae laborerectur sunt. Sanist volo omnihitatiae aspis et et id enimusa.</p>
+			<a href="#" > <i class="more-arrow"> </i> MORE INFO</a>
+		</div><!--recording close-->
+		<div class="center-half-line"> </div>
+		<div class="membership space-50">
+			<h2 class="head"> Memberships</h2>
+			<p class="p-content">Ferchitaeped et as excerum is rem as repuda doluptatur?Lam fugias minverum nim re quis delis asped moloria temqui ut quam, nit, qui reicima ximporum lab il et odistrum </p>
+			
+		</div>
+		<div class="center-half-line"> </div>
+		<div class="profile space-50">
+			<h2 class="head"> Profiles</h2><br>
+				<div id="demos">
+		<div class="container">
+		  <div class="row">
+			<div class="large-12 columns">
+			<owl-carousel
+                [options]="profileCarouselOptions"
+                >
+			  
+				<div class="item" *ngFor="let image of profileCarousel;let i=index">
+				  <img src="{{image}}" alt="sample">
+				</div>
+							
+			  
+			  </owl-carousel>	
+			</div>
+		  </div>
+		  </div>
+		</div>
+			
+			<p class="p-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. </p>
+		</div>
+		<div class="center-half-line"> </div>
+		<div class="profile space-50">
+			<h2 class="head"> Library</h2><br>
+				<div id="demos">
+		<div class="container">
+		  <div class="row">
+			<div class="large-12 columns">
+			  <owl-carousel
+                [options]="mySlideOptions"
+                >
+				<div class="item" *ngFor="let slides of mySlideImages;let i=index">
+				  <img src="{{ slides }}" alt="sample">
+				</div>
+								
+			 </owl-carousel>
+			</div>
+		  </div>
+		  </div>
+		</div>
+			
+			<p class="p-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. </p>
+		</div>
+		<div class="center-half-line"> </div>
+		</div>
+  
+  
+  
+  
+  <div class="privacy-section space-50">
+	  <div class="container">
+		  <div class="row">
+			<div class="col-sm-12">
+				<div class="privacy-description">
+					<h2 class="head">Privacy and <b>Security</b></h2>
+					<p class="p-content">Ferchitaeped et as excerum is rem as repuda doluptatur? Lam
+					fugias minverum nim re quis delis asped moloria temqui ut quam,
+					nit, qui reicima ximporum lab il et odistrum</p>
+				</div>
+			</div>
+		  </div>
+	  </div>
+  </div>
+  
+  
+  
+       

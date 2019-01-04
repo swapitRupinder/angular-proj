@@ -1,0 +1,90 @@
+<div class="bg-color">
+ <div class="container">
+    <div class="member-search">	  
+		  <div class="row">
+			  <div class="col-sm-4 sign-left">
+				  <h3> memberships </h3>
+			  </div>
+			<div class="col-sm-8 sign-right">
+			  <div class="search">
+				  <form>
+					  <input type="text" placeholder=""/>
+					  <input type="submit" value="search"/>
+				  </form>
+			  </div>
+			  </div>
+		  </div>	  
+	</div>
+	<section id="demos" class="member-single">
+      <div class="row">
+        <div class="large-12 columns">
+           <owl-carousel
+                [options]="membershipCarouselOptions"
+                >
+            <div class="item" id="artist" *ngFor="let info of membershipCarousel;let i=index">
+              <div class="art-banner">
+			    <img src="{{info.img}}">				
+			  </div>
+			  <div class="inner_title"><h3> {{info.heading}}</h3></div>
+			  <div class="art-inner">
+				<p> {{info.content}}</p>
+			  </div>
+<div class="col-sm-4">
+				<div class="art-outer">					
+						<div class="art-price">
+							<sup>$</sup>4.99 <span> per month  </span><span> or $50 per year </span>
+						</div>
+						<p class="record-art">
+							Record one artist profile and up to 100 artworks
+						</p>					
+				</div>
+				<div class="member-art-button clearfix">
+					<a routerLink="/membership/checkout"> sign up </a>
+					<a href="#" class="member-trial"> trial </a>
+				</div>
+</div>	
+<div class="col-sm-4">
+				<div class="art-outer">					
+						<div class="art-price">
+							<sup>$</sup>9.99 <span> per month  </span><span> or $100 per year </span>
+						</div>
+						<p class="record-art">
+							Record one artist profile and up to 500 artworks
+						</p>					
+				</div>
+				<div class="member-art-button clearfix">
+					<a href="#"> sign up </a>
+					<a href="#" class="member-trial"> trial </a>
+				</div>
+</div>	
+<div class="col-sm-4">
+				<div class="art-outer">					
+						<div class="art-price">
+							<sup>$</sup>19.99 <span> per month  </span><span> or $200 per year </span>
+						</div>
+						<p class="record-art">
+							Unlimited usage
+						</p>					
+				</div>
+				<div class="member-art-button clearfix">
+					<a href="#"> sign up </a>
+					<a href="#" class="member-trial"> trial </a>
+				</div>
+</div>			
+            </div> <!---artist section close-->
+             </owl-carousel>
+			
+			
+			
+			
+			
+			
+            
+          </div>
+        </div>
+      
+    </section>
+		
+ </div><!--container close-->
+	
+  

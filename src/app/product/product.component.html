@@ -1,0 +1,48 @@
+ <div class="base">  
+    <label style="font-weight: bold">Product Filter By Price</label>  
+    <div style="width: 40%">  
+        <igx-slider id="slider" [type]="sliderType.RANGE"                                                   (onValueChange)="SliderChange(priceRange)"  
+[minValue]="0"   
+[maxValue]="1000"  
+                                   [(ngModel)]="priceRange"                                                        [lowerBound]="MinRangeValue"  
+[upperBound]="MaxRangeValue"></igx-slider>  
+
+        <h4>  
+            Slider Lower Value is : {{priceRange.lower}}  
+            <br> Slider Upper Value is : {{priceRange.upper}}  
+        </h4>  
+        <div>  
+            <table width="40%">  
+                <tr>  
+                    <th>  
+                        Id.  
+                    </th>  
+                    <th>  
+                        Name  
+                    </th>  
+                    <th>  
+                        Price  
+                    </th>  
+					<th>  
+                        Image  
+                    </th>  
+                </tr>  
+                <tr *ngFor="let p of Filterdata">  
+                    <td>  
+                        {{p.id}}  
+                    </td>  
+                    <td>  
+                        {{p.name}}  
+                    </td>  
+                    <td>  
+                        {{p.price}}  
+                    </td>  
+					<td>  
+                     <img src="{{p.img}}">  
+                    </td> 
+                </tr>  
+            </table>  
+        </div>  
+    </div>  
+	</div>
+	

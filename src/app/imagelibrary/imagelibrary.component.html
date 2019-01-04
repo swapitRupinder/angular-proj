@@ -1,0 +1,404 @@
+<div class="profile-body artist_box">
+	<div class="profile sign-sec">
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-sm-5 ">
+				  <h3> artist <span>profiles</span></h3>
+			  </div>
+			<div class="col-sm-7 sign-right">
+			  <div class="search">
+				  <form>
+					  <input type="text" placeholder=""/>
+					  <input type="submit" value="search"/>
+				  </form>
+			  </div>
+			  </div>
+		  </div>
+		  
+	  </div>
+  </div>
+  
+    <div class="container">
+		<div class="view-row row">
+			<p class="view "> view </p>
+				<div id="btnnContainer" >
+					<button class="btn" onclick="listView()"><i class="fa fa-bars"></i> </button> 
+					<button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> </button>
+				</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="filter-sec">
+		<div class="container">	
+		<div class="row">		
+			<aside class="col-sm-4">
+				<h6> FILTER BY: </h6>
+				<ul class="aside_list">
+					<li>
+					<select>
+						<option selected disabled>ARTIST</option>
+						<option value="abc">abc</option>
+						<option value="abc">abc</option>
+						<option value="abc">abc</option>
+						<option value="abc">abc</option>
+					</select>
+					</li>
+					<li>
+					<!--form>
+						  <div class="multiselect">
+							<div class="selectBox" onclick="showCheckboxes()">
+							  <select>
+								<option>SUBJECT</option>
+							  </select>
+							  <div class="overSelect"></div>
+							</div>
+							<div id="checkboxes">
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Cartoon</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Folk</p>
+								</label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Painting</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Traditional</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Political</p>
+							  </label>
+							</div>
+						  </div>
+						</form-->
+						<select>
+							<option selected disabled>SUBJECT</option>
+							<option value="abc">abc</option>
+							<option value="abc">abc</option>
+							<option value="abc">abc</option>
+							<option value="abc">abc</option>
+						</select>
+					</li>
+					<li>					
+						<!--form>
+						  <div class="multiselect">
+							<div class="selectBox" onclick="showCheckboxes()">
+							  <select>
+								<option>MEDIUM</option>
+							  </select>
+							  <div class="overSelect"></div>
+							</div>
+							<div id="checkboxes">
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Cartoon</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Folk</p>
+								</label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Painting</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Traditional</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">Political</p>
+							  </label>
+							</div>
+						  </div>
+						</form-->
+						
+						<select>
+							<option selected disabled>MEDIUM</option>
+							<option value="abc">Cartoon</option>
+							<option value="abc">Folk</option>
+							<option value="abc">Painting</option>
+							<option value="abc">Traditional</option>
+							<option value="abc">Political</option>
+							<option value="abc">Photography</option>
+							<option value="abc">Realism</option>
+						</select>
+					</li>
+					<li>
+						<select>
+							<option selected disabled>YEAR</option>
+							<option value="abc"><span>&#60;</span>1920</option>
+							<option value="abc">1920-1930</option>
+							<option value="abc">1930-1940</option>
+							<option value="abc">1940-1950</option>
+							<option value="abc">1950-1960</option>
+							<option value="abc">1960-1970</option>
+							<option value="abc">1970-1980</option>
+						</select>
+						
+						<!--form>
+						  <div class="multiselect">
+							<div class="selectBox" onclick="showCheckboxes()">
+							  <select>
+								<option>YEAR</option>
+							  </select>
+							  <div class="overSelect"></div>
+							</div>
+							<div id="checkboxes">
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text"><1920</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">1920-1930</p>
+								</label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">1930-1940</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">1940-1950</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">1950-1960</p>
+							  </label>
+							</div>
+						  </div>
+						</form-->
+					</li>
+					<li>
+						<form>
+						  <div class="multiselect">
+							<div class="selectBox" onclick="showCheckboxes()">
+							  <select>
+								<option>GENRE</option>
+							  </select>
+							  <div class="overSelect"></div>
+							</div>
+							<div id="checkboxes">
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">checkbox</p>
+							  </label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">checkbox</p></label>
+							  <label>
+								<input type="checkbox" name="check"> <p class="label-text">checkbox</p></label>
+							</div>
+						  </div>
+						</form>
+					</li>
+				</ul>
+				<div class="loc">
+					<h6> LOCATION </h6>
+					<ul class="aside_list">
+						<li>
+							<label>
+								<input type="checkbox" name="check"> 
+								<p class="label-text">ALL</p>
+							</label>
+						
+							<label>
+								<input type="checkbox" name="check"> 
+								<p class="label-text">AUSTRALIA</p>
+							</label>
+						
+							<label>
+								<input type="checkbox" name="check"> 
+								<p class="label-text"><input class="search_bar" type="search" placeholder="SEARCH" name="search"></p>
+							</label>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" name="check"> 
+								<p class="label-text">ALPHABETICALLY</p>
+							</label>
+						</li>
+						</ul>
+					</div>
+					<div class="colour">
+					<h6 class="btm-sec"> COLOUR </h6>
+					<ul class="aside_list">
+						<li>
+							<canvas id="picker"></canvas><br>
+							<input id="color" value="#54aedb">
+							<script>
+								new KellyColorPicker({place : 'picker', input : 'color', size : 150});
+							</script>
+						</li>
+						
+					</ul>
+					</div>
+					<div class="range-slider">
+						<h6 class="btm-sec"> PRICE </h6>
+						<ul class="aside_list">
+							<li>
+							<div class="slidecontainer">
+							  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+							  <p>$<span id="demo"></span></p>
+							</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script> </li>
+						</ul>
+					</div>
+					
+					<div class="range-slider1">						
+						<ul class="aside_list">						
+							<li>
+							<h6 class="btm-sec"> WIDTH </h6>
+							<div class="slidecontainer">
+							  <input type="range" min="1" max="100" value="50m" class="slider" id="myRange1">
+							  <p><span id="demo1"></span></p>
+							</div>
+								<script>
+								var slider = document.getElementById("myRange1");
+								var output = document.getElementById("demo1");
+								output.innerHTML = slider.value;
+
+								slider.oninput = function() {
+								  output.innerHTML = this.value;
+								}
+								</script> 
+							
+							<h6 class="btm-sec lenth"> LENGTH </h6>
+							<div class="slidecontainer">
+							  <input type="range" min="1" max="100" value="50m" class="slider" id="myRange2">
+							  <p><span id="demo2"></span></p>
+							</div>
+								<script>
+								var slider = document.getElementById("myRange2");
+								var output = document.getElementById("demo2");
+								output.innerHTML = slider.value;
+
+								slider.oninput = function() {
+								  output.innerHTML = this.value;
+								}
+								</script>
+							</li>
+						</ul>
+					</div>
+					
+					
+			</aside> 			
+			<div class="col-sm-8">
+				<div class="profile-right">
+					<div class="row">
+						<div class="gal">	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img1.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img2.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img3.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img4.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img5.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img2.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img1.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>	
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img2.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img3.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/assets/images/img4.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						<div class="box">
+							<figure class="figure"><img src="assets/images/img5.png" alt="image">
+								<figcaption class="figure-caption">Artist Name </figcaption>
+							</figure>
+						</div>	
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--container close-->
+		
+	</div> <!--filter close-->	
+		
+		
+<script>
+// Get the elements with class="box"
+var elements = document.getElementsByClassName("box");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    //elements[i].style.width = "100%";
+	$('.gal').css('column-count','1');
+  }
+}
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    //elements[i].style.width = "33.33%";
+	$('.gal').css('column-count','3');
+  }
+}
+
+/* Optional: Add active class to the current button (highlight it) */
+var container = document.getElementById("btnnContainer");
+var btns = container.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<!------------------------  checkbox within select ---------------------------------->
+<script>
+	var expanded = false;
+
+	function showCheckboxes() {
+	  var checkboxes = document.getElementById("checkboxes");
+	  if (!expanded) {
+		checkboxes.style.display = "block";
+		expanded = true;
+	  } else {
+		checkboxes.style.display = "none";
+		expanded = false;
+	  }
+	}
+
+</script>
